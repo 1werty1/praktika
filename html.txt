@@ -1,0 +1,9 @@
+git clone <URL репозитория>
+cd <название репозитория>
+git checkout -b новая_ветка
+git add .
+git commit -m "Описание ваших изменений"
+git push origin новая_ветка
+git checkout мастер
+git merge новая_ветка
+git push origin мастер
